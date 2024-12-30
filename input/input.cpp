@@ -2,9 +2,11 @@
 using namespace std;
 
 int main(){
-    int age;
-    cout << "enter your age : ";
-    cin >> age;
+    int a, b;
+    cout << "enter your no a : ";
+    cin >> a;
+    cout << "enter your no b : ";
+    cin >> b;
 
-    cout << "your age is : " << age << endl;
+    cout << "your total is : " << (a + b) << endl;
 }
