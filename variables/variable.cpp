@@ -9,7 +9,9 @@ int main(){
     bool isTrue = false;
     double price = 120.25;
 
-    cout << sizeof(age);
-    cout << grade;
+    int number = price;
+
+    cout << sizeof(age) << endl;
+    cout << number << endl;
     return 0;
 }
