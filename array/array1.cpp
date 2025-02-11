@@ -3,12 +3,15 @@ using namespace std;
 
 int main()
 {
-    // int numberOfStudents[5] = {2, 4, 6, 8, 10};
     // int size = 5;
     // int marks[size];
 
+    // // cout << size << endl;
+    // // cout << marks[3] << endl;
+
     // for (int i = 0; i < size; i++)
     // {
+    //     cout << "Enter your " << i << " number : ";
     //     cin >> marks[i];
     // }
 
@@ -17,16 +20,41 @@ int main()
     //     cout << marks[i] << endl;
     // }
 
-    int num[] = {5, 10, 20, 40, -60};
+    // int number[] = {2, 12, -12, 32, 21};
+
+    // int size = 4;
+
+    // cout << size << endl;
+
+    // int smalest = 0;
+    // int largest = 0;
+    // for (int i = 0; i < size; i++)
+    // {
+    //     if (number[i] < smalest)
+    //     {
+    //         smalest = number[i];
+    //     }
+    //     if (number[i] > largest)
+    //     {
+    //         largest = number[i];
+    //     }
+    // }
+
+    // cout << "Your Smallest Number is : " << smalest << endl;
+    // cout << "Your largest Number is : " << largest << endl;
+
+    int arr[] = {2, 4, 6, 8, 10};
+    int target = 8;
     int size = 5;
-    int smallest = __INT_MAX__;
 
     for (int i = 0; i < size; i++)
     {
-        if (num[i] < smallest)
+        if (arr[i] == target)
         {
-            smallest = num[i];
+            cout << "your index value is : " << i;
+            break;
         }
     }
-    cout << "smallest number is : " << smallest << endl;
+
+    return 0;
 }
